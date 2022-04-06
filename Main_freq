@@ -1,0 +1,29 @@
+//As I don't know how to make this as a code, I will write a pseudocode or idea here. 
+basically we want the following.
+Data=['apple','teary','stunt','abate','treat'] < set this as array.
+
+Now we have 5 words. We are going to do the frequency test. When I say frequency test, I am checking each 5 spots with frequency of the alphabet.
+For example.
+for i=0 to 4 < total array #, which is 5 letters.
+  check array(Data) for first letter. I think this was written on link I gave on groupme.
+  if array[i][1] = 'a' < IF the first alphabet of the first letter = a
+  k=k+; < increase the counter.
+  
+printf ("total freq of alphabet a is" + k) < return freq.
+
+We can repeat this for total of a~z alphabet. If there is better way, we can implement the idea.
+
+After we get the frequency of the array for all 5 spots, we want the result to be the following
+
+First position: a e d (we will only use 2 or 3 letters from highest. Too much will cause more trouble.)
+Second Position : c b e
+.
+.
+Fifth Position: t a c
+
+So now we have total of 15 alphabets with 5 spaces. We will start arranging those to create available words.
+> https://www.geeksforgeeks.org/possible-words-using-given-characters-python/ < useful link to look over.
+
+We need to make sure that all the words we create are actually in the word pool of 2315. 
+
+And I hope to get one final word, which is the answer.
